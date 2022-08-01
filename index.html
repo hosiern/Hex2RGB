@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hex to RGB Converter</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/153d1ff8e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">NAVBAR</div>
+      </nav>
+    </header>
+    <main>
+      <div class="section-1">
+        <h1>HEX TO RGB CONVERTER</h1>
+        <div class="hex-div">
+          <p class="hex-p">Enter your HEX value (Numbers only, no # please):</p>
+          <input
+            type="text"
+            name="hex-value"
+            id="hex-value"
+            placeholder="#"
+            maxlength="7"
+            minlength="3"
+          />
+          <p class="error-msg">*NOT A VALID HEX VALUE!*</p>
+          <button class="convert" type="input">Convert</button>
+          <div class="hex-color"></div>
+        </div>
+        <div class="rgb-div">
+          <p class="rgb-p">
+            Your RBG value is: RGB(<span class="rgb-result"></span>)
+          </p>
+          <div class="rgb-color"></div>
+        </div>
+      </div>
+      <footer class="footer">
+        <a href="https://github.com/hosiern" target="_blank"
+          ><i class="fa-brands fa-github social"></i
+        ></a>
+        <a href="mailto:hosiern@msn.com?subject=Message from your website">
+          <i class="fa-solid fa-envelope social"></i>
+        </a>
+        <div class="socials"></div>
+        <p class="copyright">&copy 2022 Nate Hosier</p>
+      </footer>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
