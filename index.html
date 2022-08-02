@@ -21,7 +21,7 @@
       <div class="section-1">
         <h1>HEX TO RGB CONVERTER</h1>
         <div class="hex-div">
-          <p class="hex-p">Enter your HEX value (Numbers only, no # please):</p>
+          <p class="hex-p">Enter your HEX value:</p>
           <input
             type="text"
             name="hex-value"
@@ -31,7 +31,9 @@
             minlength="3"
           />
           <p class="error-msg">*NOT A VALID HEX VALUE!*</p>
-          <button class="convert" type="input">Convert</button>
+          <button class="convert" type="input" onclick="makeHexArray()">
+            Convert
+          </button>
           <div class="hex-color"></div>
         </div>
         <div class="rgb-div">
@@ -45,7 +47,9 @@
         <a href="https://github.com/hosiern" target="_blank"
           ><i class="fa-brands fa-github social"></i
         ></a>
-        <a href="mailto:hosiern@msn.com?subject=Message from your website">
+        <a
+          href="mailto:hosiern@msn.com?subject=Message from your RGB Converter Website"
+        >
           <i class="fa-solid fa-envelope social"></i>
         </a>
         <div class="socials"></div>
