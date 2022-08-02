@@ -1,6 +1,6 @@
 const errorMsg = document.querySelector(".error-msg"); // VAR for error message
 let rgbResult = document.querySelector(".rgb-result"); // VAR for span containing output
-let rgbP = document.querySelector(".rgb-p"); // VAR for P containing output
+let rgbP = document.querySelector(".rgb-div"); // VAR for P containing output
 let hexColor = document.querySelector(".hex-color"); //VAR to for DOM object hex-color DIV
 
 function makeHexArray() {

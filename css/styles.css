@@ -39,6 +39,7 @@ body {
   background-color: lightblue;
   border: 1px solid white;
   border-radius: 2px;
+  cursor: pointer;
   display: block;
   margin: 5px auto;
   padding: 3px 5px;
@@ -54,8 +55,12 @@ body {
   opacity: 0.75;
 }
 
-.rgb-p {
+.rgb-div {
   visibility: hidden;
+}
+
+.rgb-p2 {
+  margin-top: 5px;
 }
 
 .rgb-result {
@@ -65,7 +70,7 @@ body {
 
 .footer {
   font-size: 0.5rem;
-  margin-top: 118px;
+  margin-top: 102px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -74,4 +79,10 @@ body {
   font-size: 1rem;
   margin: 5px 3px;
   color: #000;
+}
+
+@media (max-width: 411px) {
+  .footer {
+    margin-top: 65px;
+  }
 }
